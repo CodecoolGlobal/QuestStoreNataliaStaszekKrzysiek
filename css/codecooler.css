@@ -16,6 +16,12 @@ html {
     font-size: x-large;
     color: #ffa600;
     text-shadow: -3px -4px 7px #000000;
+    animation: shine 1s infinite alternate;
+  }
+  
+  @keyframes shine {
+    from {color: #ffa600}
+    to {color: rgb(255, 148, 106);}
   }
   
     input[type=email], input[type=password] {
