@@ -1,0 +1,104 @@
+  
+html {
+    background: url(https://i.pinimg.com/originals/f6/20/a1/f620a179ca1acfd15a0754701677fb58.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: x-large;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  label {
+    text-transform: uppercase;
+    font-size: x-large;
+    color: #ffa600;
+    text-shadow: -3px -4px 7px #000000;
+  }
+  
+    input[type=email], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid rgb(158, 206, 238);
+      box-sizing: border-box;
+      border-radius: 20px;
+    }
+    
+   
+    button {
+      background-color: rgb(179, 198, 233);
+      color: rgb(7, 4, 4);
+      padding: 5px 5px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.7;
+      font-family: 'Bree Serif', serif;
+      font-size: large;
+      margin-top: 25px;
+      border-radius: 20px;
+    }
+    
+    
+    button:hover {
+      opacity: 1;
+      color: rgb(246, 97, 52);
+      animation:grow 1s infinite alternate;
+    }
+    @-webkit-keyframes grow {
+        from {
+            -webkit-transform:scale(1);
+        }
+        to {
+            -webkit-transform:scale(1.1);
+        }
+    }
+    
+  
+    .cancelbtn {
+      width: auto;
+      padding: 5px 5px;
+      background-color: #ff7369;
+      margin-left: 10px;
+      text-transform: uppercase;
+      font-family: 'Bree Serif', serif;
+      font-size: large;
+   
+    }
+    
+    
+    img.avatar {
+      margin: 30px 0 0 0;
+      width: 300px;
+      border-radius: 25px;
+      animation:grow 1s infinite alternate;
+    }
+    @-webkit-keyframes grow {
+        from {
+            -webkit-transform:scale(1);
+        }
+        to {
+            -webkit-transform:scale(1.1);
+        }
+    }
+  
+    .container {
+  
+      margin: auto;
+      width: 350px;
+      padding: 40px;
+  
+      border-radius: 20px;
+      background-color: rgba(0, 0, 0, 0.4);
+    
+    }
+  
+    #password {
+      color: rgb(140, 87, 255);
+    }
