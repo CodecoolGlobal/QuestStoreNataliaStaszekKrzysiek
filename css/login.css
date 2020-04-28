@@ -74,8 +74,8 @@ label {
   
   /* Avatar image */
   img {
-    margin: 50px 0 0 0;
-    width: 250px;
+    margin: 20px 0 0 0;
+    width: 100px;
     border-radius: 20px;
     /* -webkit-animation:spin 4s linear infinite; */
     /* -moz-animation:spin 4s linear infinite; */
@@ -90,8 +90,9 @@ label {
     /* margin-left: 20%;
     margin-right: 20%; */
     margin: 20px auto auto auto;
-    width: 300px;
-    padding: 40px;
+    width: 285px;
+    padding: 10px;
+    padding-bottom: 20px;
     /* border: solid; */
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.4);
