@@ -17,16 +17,7 @@ label {
   text-shadow: -3px -4px 7px #000000;
 }
 
-/* Bordered form */
-    /* border: 3px solid #f1f1f1; */
-    /* background: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center; */
-    /* opacity: 0.8; */
-  
+
   /* Full-width inputs */
   input[type=email], input[type=password] {
     width: 100%;
@@ -71,11 +62,6 @@ label {
     /* border-radius: 20px; */
   }
   
-  /* Center the avatar image inside this container */
-  .imgcontainer {
-    /* text-align: center; */
-    
-  }
   
   /* Avatar image */
   img.avatar {
@@ -100,22 +86,3 @@ label {
   #password {
     color: rgb(140, 87, 255);
   }
-
-  
-  /* The "Forgot password" text */
-  /* span.psw {
-    float: right;
-    padding-top: 16px;
-  } */
-  
-  
-  /* Change styles for span and cancel button on extra small screens */
-  /* @media screen and (max-width: 300px) {
-    span.psw {
-      display: block;
-      float: none;
-    }
-    .cancelbtn {
-      width: 100%;
-    }
-  } */

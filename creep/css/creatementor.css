@@ -77,3 +77,8 @@ html {
     #password {
       color: rgb(140, 87, 255);
     }
+
+    .classes-table {
+      display: block;
+      text-align: center;
+    }
