@@ -19,6 +19,12 @@ label {
   text-transform: uppercase;
   color: #ffa600;
   text-shadow: -3px -4px 7px #000000;
+  animation: shine 1s infinite alternate;
+}
+
+@keyframes shine {
+  from {color: #ffa600}
+  to {color: rgb(255, 94, 30);}
 }
   
 
@@ -68,25 +74,25 @@ label {
   
   /* Avatar image */
   img {
-    margin: 30px 0 0 0;
-    width: 300px;
+    margin: 20px 0 0 0;
+    width: 100px;
     border-radius: 20px;
-    animation-name: example;
-    animation-duration: infinite;
-  }
-  
-  @keyframes example {
-    0% {top: -50px}
-    100% {top: 200px}
-  }
+    /* -webkit-animation:spin 4s linear infinite; */
+    /* -moz-animation:spin 4s linear infinite; */
+    animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
   
   /* Add padding to containers */
   .container {
     /* margin-left: 20%;
     margin-right: 20%; */
-    margin: auto auto auto auto;
-    width: 300px;
-    padding: 40px;
+    margin: 20px auto auto auto;
+    width: 285px;
+    padding: 10px;
+    padding-bottom: 20px;
     /* border: solid; */
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -95,14 +101,4 @@ label {
 
   .password {
     color: rgb(171, 133, 255);
-  }
-
-  span {
-    animation-name: example;
-    animation-duration: infinite;
-  }
-  
-  @keyframes example {
-    0% {top: -50px}
-    100% {top: 200px}
   }
