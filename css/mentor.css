@@ -6,6 +6,7 @@ html {
   color: whitesmoke;
   font-size: x-large;
   font-family: "Bree Serif", serif;
+
 }
 
 .flex-column-center {
@@ -54,5 +55,20 @@ h2 {
 
 footer{
   font-size: small;
-  text-align: center;
+  font-weight: lighter;
+  position:fixed;
+  bottom:0.5em;
+}
+
+select{
+  padding: 0.25em;
+  border-radius: 20px;
+  position: fixed;
+  right: 32em;
+  }
+
+ul{
+  list-style-type: none;
+  position: relative;
+  right: 5em;
 }
