@@ -81,8 +81,8 @@ html {
     img {
       margin: 10px 0 0 0;
       width: 100px;
-      border-radius: 25px;
       animation:grow 1s infinite alternate;
+      filter: saturate(3);
     }
     @-webkit-keyframes grow {
         from {

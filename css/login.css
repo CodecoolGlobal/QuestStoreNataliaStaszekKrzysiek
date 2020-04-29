@@ -76,15 +76,20 @@ label {
   img {
     margin: 20px 0 0 0;
     width: 100px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* -webkit-animation:spin 4s linear infinite; */
     /* -moz-animation:spin 4s linear infinite; */
-    animation:spin 10s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-  
+    animation:grow 1s infinite alternate;
+    filter: saturate(4);
+  }
+  @-webkit-keyframes grow {
+      from {
+          -webkit-transform:scale(1);
+      }
+      to {
+          -webkit-transform:scale(1.1);
+      }
+  }
   /* Add padding to containers */
   .container {
     /* margin-left: 20%;

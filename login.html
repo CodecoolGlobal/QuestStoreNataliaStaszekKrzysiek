@@ -19,21 +19,22 @@
       <img src="https://i.ibb.co/0X9MBQJ/vectorpaint.jpg"
         alt="Avatar" class="avatar">
     </div>
-    <form action="creep.html" class="container">
+    <form name="myForm" action="/" class="container">
       <label for="uname"><b>Username</b></label>
-      <input name="username" type="email" placeholder="Enter Email Address" required>
+      <input id="username" type="email" placeholder="Enter Email Address" required>
       <br />
       <label for="psw"><b>Password </b></label>
       <input name="password" type="password" placeholder="Enter Password" pattern=".{5,10}" required title="5 to 10 characters!">
       <br />
-      <button type="submit">Login</button>
+      <button id="submit">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
       <button type="button" class="cancelbtn">Cancel</button>
       <span class="password">Forgot <a href="#" class="password">password?</a></span>
   </form>
-    
+
+  <script src="controller.js"></script>
 
 </body>
 
