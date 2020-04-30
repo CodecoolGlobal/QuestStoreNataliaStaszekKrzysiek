@@ -13,12 +13,32 @@ function subPages(){
     {
         location.href = "creep.html";
     } else if ((username == "mentor@gmail.com" && password == "222")) {
-        location.href = "mentor/mentor.html";
+        location.href = "mentor.html";
     }else if ((username == "codecooler@gmail.com" && password == "333")) {
-        location.href = "codecooler.html";
+        location.href = "codecooler/codecooler.html";
     }
 }
 
 function homePage(){
-    location.href = "login.html";
+    location.href = "../login.html";
+}
+
+function codecoolerPage(){
+    location.href = "codecooler.html";
+}
+
+function walletPage(){
+    location.href = "../codecooler/wallet.html";
+}
+
+function artifactPage(){
+    location.href = "../codecooler/artifact.html";
+}
+
+function experiencePage(){
+    location.href = "../codecooler/experience.html";
+}
+
+function teamArtifactPage(){
+    location.href = "../codecooler/teamArtifact.html";
 }
