@@ -34,20 +34,22 @@ button:hover {
   color: white;
 }
 
-ul{
-  list-style-type: none;
-  text-align: center;
-}
-
 h1{
   color: lightskyblue;
   display: block;
 }
 
 img.avatar {
-  display: block;
-  margin-left: 45%;
-  width: 15%;
-  border-radius: 0;
-  
+  width: 12%;
+  margin-top: 1em;
+}
+
+.menu-creep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-creep > a {
+  width: 100%;
 }
